@@ -1,1 +1,1 @@
-# theOdingProject-theLanding
+# theOdinProject-theLanding
