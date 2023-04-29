@@ -1,0 +1,38 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+   
+}
+
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    width: 400px;
+    margin-bottom: 0px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0px;
+}
+
+
+
+.hero .box {
+    padding: 90px 150px;
+    background-color: rgba(229, 231, 235, 40%);
+    color: white;
+    width: 600px;
+  
+}
+
+
+
+
