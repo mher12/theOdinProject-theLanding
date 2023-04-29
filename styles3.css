@@ -1,7 +1,11 @@
 .section-3 {
     background-color: white;
-    width; 100%;
-    
-    
+    margin-left: calc(50% - 50vw);
+    width: 100vw;
+    /* only works because the the margin-left: 50% centers the left-margin in the parent container (which is the center of the page if the parent container is centered), then -50vw moves it left half a page.*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
