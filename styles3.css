@@ -2,10 +2,48 @@
     background-color: white;
     /*margin-left: calc(50% - 50vw);
     width: 100vw;*/
-    /* only works because the the margin-left: 50% centers the left-margin in the parent container (which is the center of the page if the parent container is centered), then -50vw moves it left half a page.*/
+    /* only works because the the margin-left: 50% centers the left-margin in the parent container (which is the center of the page if the parent container is centered), then -50vw moves it left half a page.
+    commented code out as found a more effective way with box-sizing/ using the above code caused for text to be off center and in order to fix text you would have to use calc vw and adjust accordingly*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 150px;
+    padding: 0px 100px;
+    flex:1;
 }
+
+.section-3 h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.section-3 .item-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+
+}
+
+.section-3 .items {
+    height: 200px;
+}
+
+
+.section-3 .box {
+    border: 3px solid #3882f6;
+    padding: 70px 70px;
+    border-radius:10px; 
+
+}
+
+.section-3 p {
+    text-align: center;
+    width: 150px;
+    margin-top: 5px;
+}
+
 
