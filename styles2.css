@@ -4,17 +4,23 @@
     align-items: start;
     gap: 50px;
     flex-wrap: wrap;
-    padding: 20px 100px;
+    /* padding: 20px 100px; 
+    --> modifiying layout to best match project*/
+    padding: 20px 250px 150px;
     
    
 }
 
 .hero .container {
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;
     height: 300px;
     width: 100px;
     margin-bottom: 0px;
-    flex:1;
+    flex:1; 
+    
+    --> trying to remove redundancy
+    */
+    width: 35%;
     
 }
 
@@ -50,7 +56,10 @@
     flex-basis: auto;
     background-color: rgba(229, 231, 235, 40%);
     color: white;
-    padding: 100px 90px;
+    /* padding: 100px 90px; 
+    --> modifiying layout to best match project*/
+    width:50%;
+    padding: 100px 100px;
     
 }
 
