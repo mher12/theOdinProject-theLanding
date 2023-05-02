@@ -3,9 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 
-
 }
 
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
+/* added media query to test to see if it will help it be more responsive */
 
 body {
     /* background-color: #1f2937;
