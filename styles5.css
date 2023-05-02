@@ -1,9 +1,30 @@
 .section-5 {
     background-color: white;
     padding: 100px 300px;
+    display: flex;
+    justify-content: center;
+    flex:1;
+}
+
+.section-5 .container {
+    background-color: #3882f6;
+    padding: 40px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex:1;
+       
 }
 
 .section-5 .text-container {
+    color: white;
+}
+
+.section-5 button {
     background-color: #3882f6;
-    padding: 50px 20px;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: white 1px solid;
 }
