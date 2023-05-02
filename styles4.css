@@ -1,0 +1,26 @@
+.section-4 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 100px 200px;
+    align-items: center;
+    
+}
+
+.section-4 .quote-container {
+    font-size: 36px;
+    font-style: italic;
+    opacity: 55%;
+    width: 60%;
+    
+}
+
+.section-4 .author-container {
+    width: 35%;
+    align-self: end;
+}
+
+.section-4 .author-quote {
+    font-weight: bold;
+}
